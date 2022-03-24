@@ -2,9 +2,9 @@
 name: sync2gitee
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
 jobs:
   repo-sync:
     env:
